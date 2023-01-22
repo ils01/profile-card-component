@@ -1,4 +1,4 @@
-# [Frontend Mentor - Profile card component solution](www.ils01.github.io/profile-card-component)
+# [Frontend Mentor - Profile card component solution](https://ils01.github.io/profile-card-component/)
 
 ![](./preview.png)
 
