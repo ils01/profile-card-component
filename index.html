@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Profile card component</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <img src="./images/bg-pattern-top.svg" alt="" class="bg-img top" />
+    <img src="./images/bg-pattern-bottom.svg" alt="" class="bg-img btm" />
+    <main>
+      <div class="card">
+        <img class="card__bg" src="./images/bg-pattern-card.svg" alt="" />
+        <img
+          class="card__avatar"
+          src="./images/image-victor.jpg"
+          alt="Victor Crest"
+        />
+        <div class="card__content">
+          <div class="card__info">
+            <h1 class="card__name">Victor Crest</h1>
+            <span class="card__age">26</span>
+            <p class="card__city">London</p>
+          </div>
+          <div class="card__stat">
+            <div class="card__stat-item">
+              <div class="card__stat-num">80K</div>
+              <div class="card__stat-heading">Followers</div>
+            </div>
+            <div class="card__stat-item">
+              <div class="card__stat-num">803K</div>
+              <div class="card__stat-heading">Likes</div>
+            </div>
+            <div class="card__stat-item">
+              <div class="card__stat-num">1.4K</div>
+              <div class="card__stat-heading">Photos</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
